@@ -117,6 +117,7 @@ function cerrar() {
 //32
 
 function login() {
+  console.log("pase por aca");
   const vcorreo = document.getElementById("correo").value;
   const vpasswpord = document.getElementById("password").value;
   const valido = false;
